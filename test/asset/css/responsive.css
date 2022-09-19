@@ -1,0 +1,42 @@
+/* mobile */
+@media (max-width: 740px) {
+    #nav > li {
+        display: block;
+    } 
+
+    #nav > li:first-child {
+        display: inline-block;
+        
+    }
+
+    #nav .subnav {
+        position: initial;
+    }
+
+    #header .search-btn {
+        display: none;
+        overflow: hidden;
+    }
+
+    #nav {
+        display: block;
+    }
+    #header .mobile-menu-btn {
+        display: block;
+    }
+    #header {
+        overflow: hidden;
+    }
+    #content .member-items {
+        margin-top: 30px;
+        width: 100%;
+    }
+}
+/* pc */
+@media (min-width: 1024px) {
+    
+}
+/* table */
+@media (min-width:740px) and (max-width:1023px) {
+
+}
